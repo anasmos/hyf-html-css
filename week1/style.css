@@ -1,0 +1,99 @@
+body {
+  text-align: center;
+  font-size: 24px;
+  font-family: "Lato";
+}
+h2{
+  background-color:#303030;
+  color:white;
+}
+img {
+  margin-top: 250px;
+  float:center;
+  width: 250px;
+  height: 250px;
+  opacity: 0.5;
+}
+img:hover {
+  opacity: 1;
+}
+#name {
+  color:white;
+  position:absolute;
+  left: 500px;
+  top: 150px;
+  font-size:50px;
+}
+#header{
+  margin:10px;
+  height:500px;
+  border:1px solid black;
+  background-image:url("img/background.gif")
+}
+li h3{
+   display:inline;
+  
+}
+li h4{
+  display:inline;
+}
+h2:hover{
+   background-color:#4CAF50;
+  color:black;
+}
+table, th, td {
+   border: 1px solid black;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #4CAF50;
+}
+li {
+  list-style-type: none;
+}
+.active {
+    background-color: #111;
+}
+#pesonal-info, #education, #work, #language{
+padding-bottom:5%;
+border-top:solid;
+border-radius:20px;
+width:100%;
+border-bottom:solid;
+border-color:white;
+margin:5% 0 0;
+background-color:#E8E8E8; 
+}
+pre {
+  font-family: "Lato";
+}
+#footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-top: 20px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    font-size: 12px;
+}
