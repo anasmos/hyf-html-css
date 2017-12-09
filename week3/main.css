@@ -1,0 +1,256 @@
+*{
+    font-family: lato;
+}
+#firstLogo{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 0
+}
+#navBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #01689B;
+}
+
+#navBar #home li {
+    float: left;
+}
+#navBar .mainNav li {
+    float: right;
+}
+
+#home li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+#navBar ul .mainNav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+     font-size: 25px;
+}
+
+/* Change the link color to #111 (black) on hover */
+#navBar ul .mainNav li a:hover {
+   
+    text-decoration: underline;
+}
+#headerimg {
+    position: relative;
+}
+.topTaskNavigation{
+    position: absolute;
+    top: 0
+}
+#formsearch{
+    right: 15px;
+    top: 25px;
+    position: absolute;
+ 
+}
+#headerimg img{
+    width: 1333px;
+    height: 350px
+}
+.submit{
+    width: 50px;
+    height: 50px;
+}
+#search{
+    width: 400px;
+    height:45px;
+    vertical-align: top;
+}
+.topTaskNavigation{
+    width: 100%;
+    height: 250px;
+    top: 25px;
+}
+.topTaskNavigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 30%;
+    background-color: white;
+    height: 100%;
+    overflow: auto;
+}
+.topTaskNavigation ul li{
+    line-height: 20px;
+}
+
+.topTaskNavigation ul li a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navItem{
+    width: 300px;
+    height: 250px;
+}
+.navItem a {
+    font-size: 20px;
+    text-decoration: none;
+
+}
+.navItem a p {
+    color: black;
+    
+}
+.fourItems{
+    display: flex;
+    justify-content: space-between;
+}
+.fourItems .navItem a h3:hover{
+    text-decoration: underline;
+}
+.fourItems{
+    background-color: #F3F3F3;
+}
+.spotLight a{
+    text-decoration: none;
+}
+.spotLight .brick{
+    width: 30%;
+}
+.spotLight {
+    padding-top: 100px;
+    padding-bottom: 100px;
+     display: flex;
+     justify-content: space-around;
+   
+
+}
+.spotLight p{
+    color: black;
+}
+.spotLight .brick{
+      position: relative;
+    
+}
+.spotLight .brick .copyright{
+    position: absolute;
+    bottom:100px;
+    left: 8px;
+     color: white;
+}
+.spotLight .brick h3:hover{
+    text-decoration: underline;
+}
+.nieuws .brick a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.nieuws .brick a p{
+   color: black;
+}
+
+.nieuws .brick{
+    width: 30%;
+    float: left;
+    margin-right: 3%;
+    margin-bottom: 50px;
+}
+.more{
+    clear: both;
+    display: block;
+    font-size: 25px
+}
+.nieuws{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+h2{
+    font-size: 35px
+}
+.banner a{
+    text-decoration: none;
+}
+.banner {
+      border:3px solid #CBD2E3;
+      display: inline-block;
+      width:400px;
+      height: 250px;
+      vertical-align: top;
+      margin-left: 30px;
+      text-align: center;
+      line-height: 5px;
+      position: relative;
+      margin-bottom: 100px;
+}
+.banner h3{
+    font-size: 40px;
+    color:black;
+}
+.banner .vragen{
+    color: #01689B;
+    font-size: 50px
+}
+.banner #pinck h3{
+    color: #A90061;
+}
+.banner #pinck{
+    position: absolute;
+
+    top: 80px;
+    left: 50px;
+}
+#footer1{
+    display: flex;
+    background-color: #01689B;
+}
+.payoff{
+    flex:3;
+    font-size: 35px;
+}
+.column{
+    flex:1;
+}
+.column ul{
+    list-style-type: none;
+}
+#footer1 h2{
+color: white;
+}
+.column ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: left;
+ }
+.column ul li a:hover{
+
+    text-decoration: underline;
+}
+.column ul li{
+    margin-bottom: 15px;
+}
+.languages ul{
+    list-style-type: none;
+
+}
+.languages ul li{
+   display: inline;
+   margin-right: 15px;
+}
+.languages{
+    margin-top: 50px;
+    margin-bottom: 50px;
+text-align: center;
+}
+.languages ul li a{
+    border:1px solid #01689B;
+    padding: 10px;
+    color: #01689B;
+  text-decoration: none;
+  font-size: 20px;
+}
